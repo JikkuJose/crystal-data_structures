@@ -1,0 +1,62 @@
+---
+2j732:
+  :id: 2j732
+  :label: Label 0
+  :description: Simple fragment
+  :tags:
+  - new_movie
+  - dangal
+  - amir
+  :text: Think Dangal is getting good reviews! Its rocking in the box office!
+  :responses:
+  - :text: Whats happening around?
+    :link:
+      :direct:
+      :tags:
+      - reset
+      - new_show
+      - bot:bollywood_news
+      - bot:whats_around
+  - :text: Have the trailer?
+    :link:
+      :direct: 69dw2
+      :tags:
+69dw2:
+  :id: 69dw2
+  :label: Label 1
+  :description: Simple fragment number 1
+  :tags:
+  - trailer
+  - dangal
+  :text: Sure its available in Youtube
+  :responses:
+  - :text: Yup, pretty cool!
+    :link:
+      :direct:
+      :tags:
+      - bot:movie_review
+      - bot:imdb
+  - :text: Show me something interesting from Youtube?
+    :link:
+      :direct: 17jy9
+      :tags:
+17yj9:
+  :id: 17yj9
+  :label: Label 2
+  :description: Simple fragment number 2
+  :tags:
+  - youtube_trending
+  - random
+  :text: LOLCATS are so fun!! ;)
+  :responses:
+  - :text: Funny, one more??
+    :link:
+      :direct: 17yj9
+      :tags:
+  - :text: Okay!! Something else please?
+    :link:
+      :direct:
+      :tags:
+      - reset
+      - new_movie
+      - bot:whats_around
